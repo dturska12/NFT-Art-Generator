@@ -1,4 +1,4 @@
-.btn {    
+.btn {
     background: linear-gradient(to right, #6fbbee 0%, #047ef0 100%);
     -webkit-background-clip: text;
     background-clip: text;
@@ -21,12 +21,13 @@
   }
 
  button {
-     outline:none;
-     border: none;
+    background: linear-gradient(to right, #6fbbee 0%, #047ef0 100%);
+    outline:none;
+    border: none;
  }
 
 
-  
+
   .btn::before {
     content:"";
     position:absolute;
@@ -57,14 +58,14 @@
   }
 
   .btn:disabled {
-    color: gray;
+    color: #047ef070;
     border: 2px solid gray;
     background: transparent;
     -webkit-text-fill-color: gray;
     -webkit-background-clip: border-box;
     background-clip: border-box;
   }
-  
+
   .btn:hover::before {
     -webkit-mask:none;
   }
